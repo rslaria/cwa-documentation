@@ -25,11 +25,11 @@ HINWEIS: Diese README ist ebenfalls [auf Deutsch](translations/README.de.md) ver
 
 ## About this Project
 
-We are developing the official COVID-19 exposure notification app for Germany, called "<a href="https://www.coronawarn.app/en/">Corona-Warn-App</a>". This project has the goal to develop an app based on technology with a decentralized approach -  heavily inspired by the [DP-3T](https://github.com/DP-3T/documents) (Decentralized Privacy-Preserving Proximity Tracing, see [this comic](https://github.com/DP-3T/documents/tree/master/public_engagement/cartoon) for concept explanation) and [TCN](https://tcn-coalition.org/) protocols and based on the [Privacy-Preserving Contact Tracing specifications](https://www.apple.com/covid19/contacttracing/) by Apple and Google. Like DP-3T and the TCN Protocol, the apps and backend infrastructure will be entirely open source - licensed under the [Apache 2.0 license](LICENSE)! The apps (for iOS and Android) will collect pseudonymous data from nearby mobile phones using Bluetooth technology. The data will be stored locally on each device preventing access and control over data by authorities or anyone else. We will meet the applicable data protection standards and guarantee a high level of IT security. By doing so, we are addressing people's privacy concerns and thereby aiming to increase the adoption of the app.
+We are developing the official COVID-19 exposure notification app for Germany, called "<a href="https://www.coronawarn.app/en/">Corona-Warn-App</a>". This project has the goal to develop an app based on technology with a decentralized approach -  heavily inspired by the [DP-3T](https://github.com/DP-3T/documents) (Decentralized Privacy-Preserving Proximity Tracing, see [this comic](https://github.com/DP-3T/documents/tree/master/public_engagement/cartoon) for concept explanation) and [TCN](https://tcn-coalition.org/) protocols and based on the [Privacy-Preserving Contact Tracing specifications](https://www.apple.com/covid19/contacttracing/) by Apple and Google. Like DP-3T and the TCN Protocol, the apps and backend infrastructure will be entirely open-source - licensed under the [Apache 2.0 license](LICENSE)! The apps (for iOS and Android) will collect pseudonymous data from nearby mobile phones using Bluetooth technology. The data will be stored locally on each device preventing access and control over data by authorities or anyone else. We will meet the applicable data protection standards and guarantee a high level of IT security. By doing so, we are addressing people's privacy concerns and thereby aiming to increase the adoption of the app.
 
 ## Who We Are
 
-The German government has comissioned SAP and Deutsche Telekom to develop the Corona-Warn-App for Germany as open source software. Deutsche Telekom is providing the network and mobile technology and will operate and run the backend for the app in a safe, scalable and stable manner. SAP is responsible for the app development, its framework and the underlying platform. Therefore, development teams of SAP and Deutsche Telekom are contributing to this project. At the same time our commitment to open source means that we are enabling -in fact encouraging- all interested parties to contribute and become part of its developer community.
+The German government has commissioned SAP and Deutsche Telekom to develop the Corona-Warn-App for Germany as open-source software. Deutsche Telekom is providing the network and mobile technology and will operate and run the backend for the app in a safe, scalable, and stable manner. SAP is responsible for app development, its framework, and the underlying platform. Therefore, development teams of SAP and Deutsche Telekom are contributing to this project. At the same time, our commitment to open source means that we are enabling -in fact encouraging- all interested parties to contribute and become part of its developer community.
 
 ## Credits
 
@@ -37,7 +37,7 @@ We'd like to thank all the partners who have been involved in this enormous proj
 
 ## Data Privacy
 
-In this project we are strictly observing the principles of the General Data Protection Regulation (GDPR) to protect the users’ privacy. We are processing necessary data only - exclusively for the purpose to let users know if they have come into close contact with other infected users, without revealing each other's identity. The compliance with these regulations is safeguarded by several procedures, e.g. by implementing technical and organizational measures adhering diligently to the high standards of the GDPR. Of course, the app will provide users with a comprehensive privacy statement to be as transparent and clear as possible. As we are developing the app as an open source project, the community can review it. We appreciate your feedback!
+In this project, we are strictly observing the principles of the General Data Protection Regulation (GDPR) to protect the users’ privacy. We are processing necessary data only - exclusively for the purpose to let users know if they have come into close contact with other infected users, without revealing each other's identity. The compliance with these regulations is safeguarded by several procedures, e.g. by implementing technical and organizational measures adhering diligently to the high standards of the GDPR. Of course, the app will provide users with a comprehensive privacy statement to be as transparent and clear as possible. As we are developing the app as an open-source project, the community can review it. We appreciate your feedback!
 
 ## Code of Conduct
 
@@ -45,7 +45,7 @@ This project has adopted the [Contributor Covenant](https://www.contributor-cove
 
 ## Working Language
 
-We are building this application for Germany. We want to be as open and transparent as possible, also to interested parties in the global developer community who do not speak German. Consequently, all content will be made available primarily in _English_. We also ask all interested people to use English as language to create issues, in their code (comments, documentation etc.) and when you send requests to us. The application itself, documentation and all end-user facing content will - of course - be made available in German (and probably other languages as well). We also try to make developer documentation available in German, but please understand that focussing on the _Lingua Franca_ of the global developer community makes the development of this application as efficient as possible.
+We are building this application for Germany. We want to be as open and transparent as possible, also to interested parties in the global developer community who do not speak German. Consequently, all content will be made available primarily in _English_. We also ask all interested people to use English as a language to create issues, in their code (comments, documentation, etc.) and when you send requests to us. The application itself, documentation, and all end-user facing content will - of course - be made available in German (and probably other languages as well). We also try to make developer documentation available in German, but please understand that focussing on the _Lingua Franca_ of the global developer community makes the development of this application as efficient as possible.
 
 ## Our Documentation
 
@@ -53,14 +53,14 @@ This repository contains the developer documentation and related content.
 
 ### Project Scope
 
-The project scope has been agreed on jointly by Deutsche Telekom AG and SAP SE as contractors and the German Federal Government and the Robert-Koch-Institut as clients. The project scope might change over time as new requirements need to be included or existing ones change. We appreciate feedback to all elements of this project scope document. However, additional features or any other content changes beyond fixes to grammatical issues or typos need to be aligned on by these partners before they can be included in the document. Thank you for your understanding!
+The project scope has been agreed on jointly by Deutsche Telekom AG and SAP SE as contractors and the German Federal Government and the Robert-Koch-Institut as clients. The project scope might change over time as new requirements need to be included or existing ones change. We appreciate feedback on all elements of this project scope document. However, additional features or any other content changes beyond fixes to grammatical issues or typos need to be aligned on by these partners before they can be included in the document. Thank you for your understanding!
 
 - [Corona-Warn-App - Scoping Document](scoping_document.md)
 - [Corona-Warn-App - User Interface Screens](ui_screens.md)
 
 ### Technical Documentation
 
-The technical documents are intended for a technical audience and represent the most recent state of the architecture. The solution architecture and concepts might change over time as external dependencies (e.g. the framework provided by Apple/Google) are still changing and new requirements need to be included or existing ones change. We appreciate feedback to all elements of these technical documents.
+The technical documents are intended for a technical audience and represent the most recent state of the architecture. The solution architecture and concepts might change over time as external dependencies (e.g. the framework provided by Apple/Google) are still changing and new requirements need to be included or existing ones change. We appreciate feedback on all elements of these technical documents.
 
 - [Corona-Warn-App - Solution Architecture](solution_architecture.md)
 - [Corona-Warn-App Server Architecture](https://github.com/corona-warn-app/cwa-server/blob/master/docs/ARCHITECTURE.md)
